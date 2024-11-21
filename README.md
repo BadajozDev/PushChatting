@@ -1,11 +1,11 @@
 <div align="center">
   <div align="center">
-    <img src="https://example.com/your-image-link" alt="Chat Script Logo" />
+    <img src="https://github.com/user-attachments/assets/dd3483d4-e7a9-449d-94cb-fa13f79cd964" alt="Chat Script Logo" />
   </div>
 </div>
 
 ## Descripción
-`ChatScript` es un sencillo script de chat interactivo desarrollado en `Python` que permite la comunicación en tiempo real a través de un canal de chat. Utilizando herramientas como `Pusher` y `pysher`, este script facilita la mensajería entre usuarios, mostrándola en tiempo real en la consola.
+`PushChat` es un sencillo script de chat interactivo desarrollado en `Python` que permite la comunicación en tiempo real a través de un canal de chat. Utilizando herramientas como `Pusher` y `pysher`, este script facilita la mensajería entre usuarios, mostrándola en tiempo real en la consola.
 
 Este proyecto está diseñado para ayudarte a entender cómo implementar la mensajería en tiempo real utilizando WebSockets con `Pusher` y manejar eventos de forma eficiente con `pysher`.
 
@@ -25,7 +25,7 @@ Este proyecto está diseñado para ayudarte a entender cómo implementar la mens
 ---
 
 ## Requisitos
-Para ejecutar `ChatScript`, necesitas tener `Python 3.x` y las siguientes librerías instaladas:
+Para ejecutar `PushChat`, necesitas tener `Python 3.x` y las siguientes librerías instaladas:
 
 <div style="margin-left: 20px;">
   <ul>
@@ -40,7 +40,7 @@ Para ejecutar `ChatScript`, necesitas tener `Python 3.x` y las siguientes librer
 
 ## Instalación
 
-Sigue estos pasos para instalar y ejecutar `ChatScript` en tu máquina local:
+Sigue estos pasos para instalar y ejecutar `PushChat` en tu máquina local:
 
 <details>
   <summary><b>1. Clona este repositorio en tu máquina:</b></summary>
@@ -102,5 +102,5 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ---
 
-**Creado por**: *TuNombre*  
+**Creado por**: *BadajozDev*  
 *Fecha*: 21/11/2024
