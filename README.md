@@ -24,17 +24,18 @@ Este proyecto está diseñado para ayudarte a entender cómo implementar la mens
 
 ---
 
-## Requisitos
-Para ejecutar `PushChat`, necesitas tener `Python 3.x` y las siguientes librerías instaladas:
+### Requisitos previos
+## Configuración de Pusher
 
-<div style="margin-left: 20px;">
-  <ul>
-    <li><b>termcolor</b></li>
-    <li><b>pusher</b></li>
-    <li><b>pysher</b></li>
-    <li><b>python-dotenv</b></li>
-  </ul>
-</div>
+Si aún no tienes una cuenta, crea una cuenta gratuita en Pusher en https://pusher.com/signup, luego inicia sesión en tu panel de control y crea una aplicación.
+
+Después, completa las credenciales de tu aplicación de Pusher en tu archivo .env reemplazando esta línea con tu appid, appkey y app secret respectivamente:
+```
+PUSHER_APP_ID=XXX_APP_ID
+PUSHER_APP_KEY=XXX_APP_KEY
+PUSHER_APP_SECRET=XXX_APP_SECRET
+PUSHER_APP_CLUSTER=XXX_APP_CLUSTER
+```
 
 ---
 
@@ -69,20 +70,6 @@ cd ChatScript</code></pre>
 </details>
 
 ---
-
-### Requisitos previos
-
-#### Configuración de Pusher
-
-Si aún no tienes una cuenta, crea una cuenta gratuita en Pusher en https://pusher.com/signup, luego inicia sesión en tu panel de control y crea una aplicación.
-
-Después, completa las credenciales de tu aplicación de Pusher en tu archivo .env reemplazando esta línea con tu appid, appkey y app secret respectivamente:
-```
-PUSHER_APP_ID=XXX_APP_ID
-PUSHER_APP_KEY=XXX_APP_KEY
-PUSHER_APP_SECRET=XXX_APP_SECRET
-PUSHER_APP_CLUSTER=XXX_APP_CLUSTER
-```
 
 ---
 
