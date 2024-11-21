@@ -70,22 +70,19 @@ cd ChatScript</code></pre>
 
 ---
 
-## Uso
+### Requisitos previos
 
-Una vez que hayas seguido los pasos de instalación, puedes interactuar con el chat de la siguiente manera:
+#### Configuración de Pusher
 
-1. **Conéctate al canal de chat**: El script establecerá una conexión WebSocket a través de `Pusher`.
-2. **Envía mensajes**: Escribe tus mensajes en la consola y envíalos.
-3. **Recibe mensajes**: Los mensajes enviados por otros usuarios aparecerán automáticamente en la consola.
+Si aún no tienes una cuenta, crea una cuenta gratuita en Pusher en https://pusher.com/signup, luego inicia sesión en tu panel de control y crea una aplicación.
 
----
-
-## Pusher: Crear tu propio Canal
-
-1. **Accede a Pusher**: Inicia sesión en [Pusher](https://pusher.com/).
-2. **Crea tu aplicación**: Una vez dentro, dirígete al panel de control y crea una nueva aplicación. Elige un nombre para la aplicación y selecciona un cluster.
-3. **Obtén las claves de API**: Una vez que la aplicación esté creada, Pusher te proporcionará las claves necesarias para autenticarte (clave de aplicación, clave secreta y claves de acceso).
-4. **Crea un canal en tu script**: Usa la API de Pusher para crear un canal en el cual los usuarios se puedan conectar y enviar mensajes en tiempo real. A continuación se muestra cómo hacerlo en el código:
+Después, completa las credenciales de tu aplicación de Pusher en tu archivo .env reemplazando esta línea con tu appid, appkey y app secret respectivamente:
+```
+PUSHER_APP_ID=XXX_APP_ID
+PUSHER_APP_KEY=XXX_APP_KEY
+PUSHER_APP_SECRET=XXX_APP_SECRET
+PUSHER_APP_CLUSTER=XXX_APP_CLUSTER
+```
 
 ---
 
