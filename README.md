@@ -44,7 +44,7 @@ Sigue estos pasos para instalar y ejecutar `PushChat` en tu máquina local:
 
 <details>
   <summary><b>1. Clona este repositorio en tu máquina:</b></summary>
-  <pre><code>git clone https://github.com/tu_usuario/ChatScript.git
+  <pre><code>git clone https://github.com/BadajozDev/PushChatting.git
 cd ChatScript</code></pre>
 </details>
 
@@ -65,7 +65,7 @@ cd ChatScript</code></pre>
 
 <details>
   <summary><b>5. Ejecuta el script principal:</b></summary>
-  <pre><code>python chat_script.py</code></pre>
+  <pre><code>python pushChatting.py</code></pre>
 </details>
 
 ---
