@@ -79,10 +79,6 @@ Las contribuciones son bienvenidas. Si encuentras un error o tienes alguna suger
 
 ---
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
 
 **Creado por**: *BadajozDev*  
 *Fecha*: 21/11/2024
