@@ -90,17 +90,6 @@ Las contribuciones son bienvenidas. Si encuentras un error o tienes alguna suger
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
----
-
-## 📝 Nota Importante
-
-> **Este es un proyecto en desarrollo.**  
-> Actualmente, **ChatScript** está en sus primeras etapas, y es una herramienta básica para facilitar la comunicación en tiempo real utilizando `Pusher`.  
-> Planeo agregar nuevas funcionalidades en el futuro, como integración con bases de datos para guardar mensajes y otros detalles.  
->  
-> Este proyecto lo llevo a cabo como un **hobby** y para practicar mis habilidades en Python y WebSockets.  
-
----
 
 **Creado por**: *BadajozDev*  
 *Fecha*: 21/11/2024
