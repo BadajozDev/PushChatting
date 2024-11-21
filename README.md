@@ -80,6 +80,15 @@ Una vez que hayas seguido los pasos de instalación, puedes interactuar con el c
 
 ---
 
+## Pusher: Crear tu propio Canal
+
+1. **Accede a Pusher**: Inicia sesión en [Pusher](https://pusher.com/).
+2. **Crea tu aplicación**: Una vez dentro, dirígete al panel de control y crea una nueva aplicación. Elige un nombre para la aplicación y selecciona un cluster.
+3. **Obtén las claves de API**: Una vez que la aplicación esté creada, Pusher te proporcionará las claves necesarias para autenticarte (clave de aplicación, clave secreta y claves de acceso).
+4. **Crea un canal en tu script**: Usa la API de Pusher para crear un canal en el cual los usuarios se puedan conectar y enviar mensajes en tiempo real. A continuación se muestra cómo hacerlo en el código:
+
+---
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras un error o tienes alguna sugerencia, abre un **Issue** o un **Pull Request**.
